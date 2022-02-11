@@ -1,4 +1,4 @@
-import HashLoader from "react-spinners/HashLoader";
+import RingLoader from "react-spinners/RingLoader";
 import { Route, Switch } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -37,11 +37,11 @@ function App() {
     <div className="App">
       {loading ? (
         <div className="load">
-          <HashLoader
+          <RingLoader
             id="loading"
             color={"#f50057"}
             loading={loading}
-            size={150}
+            size={100}
           />
         </div>
       ) : (

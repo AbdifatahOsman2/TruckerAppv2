@@ -105,7 +105,7 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                <Link href='/login'>
+                <Link to='/login'>
                   <ListItem>Login</ListItem>
                 </Link>
                 </Typography>

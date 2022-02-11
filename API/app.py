@@ -14,7 +14,6 @@ PORT = 8000
 login_manager = LoginManager()
 
 app = Flask(__name__)
-
 app.secret_key = os.environ.get('SECRET') or "abdisworld132"
 login_manager.init_app(app)
 
