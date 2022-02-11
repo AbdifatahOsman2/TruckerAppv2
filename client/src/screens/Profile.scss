@@ -1,0 +1,43 @@
+.profile{
+    margin-top: 0px;
+    padding: 0;
+    background-color: transparent;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    .cards{
+        margin-top: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #input{
+            margin: 0px;
+        }
+        .prof-card{
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: fit-content;
+            height: fit-content;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+        }
+        h1{
+            margin: 10px;
+            font-size: 25px;
+        }
+        p{
+            margin: 10px;
+            font-size: 20px;
+            font-weight: 200;
+        }
+        a{
+            text-decoration: none;
+        }
+        Button{
+            margin: 10px;
+        }
+    }
+}

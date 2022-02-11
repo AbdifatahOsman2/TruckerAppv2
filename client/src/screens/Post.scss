@@ -1,0 +1,16 @@
+.post-stop{
+    background-color: white;
+    margin: 180px auto;
+    width: 50vw;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    @media only screen and (max-width: 480px) {
+        margin: 100px auto;
+        width: 95vw;
+        height: 550px;
+      }
+
+}
