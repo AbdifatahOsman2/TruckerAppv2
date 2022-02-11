@@ -10,6 +10,7 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
+import { Link } from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 import { ListItem } from "@mui/material";
 import { useEffect } from "react";
@@ -104,9 +105,10 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                <Button href="/login" color="inherit">
+
+                <Link to='/login'>
                   <ListItem>Login</ListItem>
-                </Button>
+                </Link>
                 </Typography>
               </MenuItem>
               <MenuItem
