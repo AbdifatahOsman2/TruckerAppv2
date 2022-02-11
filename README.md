@@ -52,7 +52,4 @@ This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.t
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_# TruckerApplication
-# Tofu-Express2
-# TruckerApplication2
-# TruckerApp
-# TruckerAppv2
+
