@@ -11,7 +11,6 @@ import Profile from "./screens/Profile";
 import Post from "./screens/Post";
 import EditPost from "./screens/EditPost";
 
-
 // scss/css
 import "./App.scss";
 import "./Components/Nav.scss";
