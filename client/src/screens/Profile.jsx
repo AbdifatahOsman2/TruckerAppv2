@@ -45,7 +45,7 @@ export default function Profile(props) {
         </>
       ) : (
         <>
-          <h1>Login to view your profile</h1>
+          <h1 className="not-in">Login to view your profile</h1>
         </>
       )}
     </section>

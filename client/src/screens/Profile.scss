@@ -40,4 +40,13 @@
             margin: 10px;
         }
     }
+    .not-in{
+        margin: 400px 0px;
+        font-size: 60px;
+        color: white;
+        @media only screen and (max-width: 480px) {
+            font-size: 50px;
+            margin: 320px 0px;
+        }
+    }
 }
