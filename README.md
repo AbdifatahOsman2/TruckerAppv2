@@ -13,7 +13,6 @@
 
 [LIVE WEBSITE](https://truckerapp.netlify.app/)
 ## Wireframes
-
 ### Desktop
 <img src="./Assets/landing (1).png"/>
 <img src="./Assets/Posts-Paage.png"/>
