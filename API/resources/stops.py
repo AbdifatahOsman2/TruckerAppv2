@@ -42,7 +42,6 @@ def delete_post(id):
     except DoesNotExist:
         return jsonify(message="error getting resources"), 500
 
-
 @stop.route("/truckerstops/<int:stop_id>", methods = ["POST"])
 @login_required
 def add_trucker_stop(stop_id):
