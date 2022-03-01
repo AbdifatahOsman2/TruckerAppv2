@@ -38,7 +38,7 @@ def after_request(response):
 
 @app.route('/')
 def index():
-    return 'hello'
+    return 'welcome to trucker api'
 
 
 app.register_blueprint(user)

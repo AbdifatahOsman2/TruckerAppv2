@@ -59,6 +59,7 @@ export const postStop = async (newStop) => {
   }
 }
 
+
 export const updateStop = async (updatedStop, stopId) => {
   try {
     await axios.put(`${apiURL}/stops/${stopId}`,updatedStop)
@@ -75,11 +76,3 @@ export const deleteStop = async (stopId) => {
   }
 }
 
-export const addTruckerStops = async (stopId) => {
-  try {
-    const response = await axios.post(`${apiURL}/stops/truckerstops/${stopId}`)
-    return response.data
-  } catch (error) {
-    console.error(error.message)
-  }
-}
